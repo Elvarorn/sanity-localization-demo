@@ -10,6 +10,11 @@ const post = {
 			title: 'Title',
 			type: 'string',
 		}),
+		localizeField({
+			name: 'body',
+			title: 'Body',
+			type: 'blockContent',
+		}),
 		{
 			name: 'slug',
 			title: 'Slug',
@@ -45,11 +50,6 @@ const post = {
 			title: 'Published at',
 			type: 'datetime',
 		},
-		localizeField({
-			name: 'body',
-			title: 'Body',
-			type: 'blockContent',
-		}),
 	],
 
 	preview: {
