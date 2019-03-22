@@ -7,8 +7,8 @@
 		"projectId": "ebm2ziou",
 		"dataset": "goof"
 	},
-	"_plugins": ["@sanity/base", "@sanity/components", "@sanity/default-layout", "@sanity/default-login", "@sanity/desk-tool"],
-	"plugins": ["@sanity/base", "@sanity/components", "@sanity/default-layout", "@sanity/default-login", "localized"],
+	"plugins": ["@sanity/base", "@sanity/components", "@sanity/default-layout", "@sanity/default-login", "@sanity/desk-tool"],
+	"_plugins": ["@sanity/base", "@sanity/components", "@sanity/default-layout", "@sanity/default-login", "localized"],
 	"parts": [
 		{
 			"name": "part:@sanity/base/schema",
