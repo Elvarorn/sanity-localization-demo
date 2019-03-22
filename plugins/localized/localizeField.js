@@ -2,7 +2,7 @@ import * as React from 'react'
 import Field from '@sanity/form-builder/lib/inputs/ObjectInput/Field'
 import PatchEvent, { set, setIfMissing, unset } from '@sanity/form-builder/lib/PatchEvent'
 import DefaultLabel from 'part:@sanity/components/labels/default'
-import { LanguageContext } from '../plugins/localized/index'
+import { LanguageContext } from './index'
 
 class LocaleComponent extends React.Component {
 	handleFieldChange = (fieldEvent, field) => {

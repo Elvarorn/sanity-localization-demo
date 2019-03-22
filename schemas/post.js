@@ -1,4 +1,4 @@
-import { localizeField } from './localizeField'
+import { localizeField } from '../plugins/localized/localizeField'
 
 const post = {
 	name: 'post',
