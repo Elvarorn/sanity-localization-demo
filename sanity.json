@@ -1,23 +1,17 @@
 {
-  "root": true,
-  "project": {
-    "name": "pussypedia"
-  },
-  "api": {
-    "projectId": "nc6lknxj",
-    "dataset": "demo"
-  },
-  "plugins": [
-    "@sanity/base",
-    "@sanity/components",
-    "@sanity/default-layout",
-    "@sanity/default-login",
-    "@sanity/desk-tool"
-  ],
-  "parts": [
-    {
-      "name": "part:@sanity/base/schema",
-      "path": "./schemas/schema.js"
-    }
-  ]
+	"root": true,
+	"project": {
+		"name": "lang-demo"
+	},
+	"api": {
+		"projectId": "ebm2ziou",
+		"dataset": "goof"
+	},
+	"plugins": ["@sanity/base", "@sanity/components", "@sanity/default-layout", "@sanity/default-login", "@sanity/desk-tool"],
+	"parts": [
+		{
+			"name": "part:@sanity/base/schema",
+			"path": "./schemas/schema.js"
+		}
+	]
 }
